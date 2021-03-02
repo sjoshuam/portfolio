@@ -24,8 +24,6 @@ div.project {
   border-radius: 5px;
 }
 
-
-
 div.project img {
   width: 100%;
   height: auto;
@@ -35,6 +33,11 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+
+a:link {
+  color: #0050A0
+}
+
 </style>
 </head>
 <body>
@@ -42,37 +45,52 @@ div.desc {
 <br>
 <h1 style="margin-left:10px;">Josh Mendelsohn's GitHub Project Gallery</h1>
 
-<i>Note: This is a rough draft.  Apologies in advance for the typos, grammar
-mistakes, and other rough edges</i>
+<div class = "project">
 
-<p>Welcome to my GitHub gallary!  Most of the code I have written
-over the years is not public. At RAND, my work informed policy recommendations
-for federal decision-makers, some of which can be found
-<a href = https://www.rand.org/pubs/authors/m/mendelsohn_joshua.html>on this RAND webpage</a>.
-
-My <a href= https:github.com/sjoshuam>GitHub account</a> (including this gallary) holds code written primarily on my
-personal time.  I write such code for both professional and personal reasons.
+<p style="text-align:center;"><b>This gallery provides a front page
+for programming activities conducted on my personal time.</b></p> <p>I conduct these
+activities for a mix of professional and personal reasons:</p>
 
 <p>Professionally, I use these projects to keep my skills sharp and to provide
-a portfolio of sample code that prospective clients can view.  When faced with
-coding challenges on the job, I also sometimes refer back to these
-repositories to remind myself how I addressed similar challenges in the past.
-To support these uses, I list some of the core data science skills exercised
+a portfolio of sample code that prospective busines associates can view.  As a
+courtesy to those viewers, I list some of the core data science skills evinced
 in each project, such as data shaping, machine learning, or visualization.</p>
 
-<p>Personally, I think programming is about as close to magic as one can get
-in the real world – data-mancy?  After writing code for over a decade, it has
-become a natural and familar tool in my life toolkit.  I conducted some of these
+<p>Personally, I think programming is as close to magic as one can get
+in the real world – datamancy?  After writing code for so many years, it has
+become a favorite tool in my life toolkit.  I conducted some of these
 projects for the fun of solving data / algorithmic puzzles and some to support
-the various life activities that bring me happiness.
+the various life activities that bring me happiness.<p>
+
+<p>Since this gallery showcases personal projects, you may find the offerings
+ideosyncratic.  For a taste of my work in a professional context, here are a few
+reports from my time at RAND:
+
+<ul>
+<li> Presidential election analysis from 2016 -
+<a href="https://www.rand.org/pubs/research_reports/RR1625.html">part 1</a>,
+<a href="https://www.rand.org/pubs/research_reports/RR1650.html">part 2</a>,
+<a href="https://www.rand.org/pubs/research_reports/RR1726.html">update</a>
+<li> Social media text mining / detection methods -
+<a>partisan groups</a><small>*</small>,
+<a>chemical weapons</a><small>*</small>
+<li> Grant program metrics - <a>disaster mitigation</a><small>*</small>
+</ul>
+</p>
+
+<p><i><small>*Coming soon.  Pieces are still in RAND's publication pipeline
+</small></i></p>
+
+</div>
 
 <div class="project">
   <a target="_blank" href="https://github.com/sjoshuam/road_trips/blob/main/C_Outputs/road_trip_poster.pdf">
     <img src="project_visualizations/road_trips.png" alt="github.com/sjoshuam/road_trips" width="450" height="300">
   </a>
 <div class="desc">
-Road tripping is one of my life happiness activities.  In recent years, I set a
-goal of visiting 112 metropolitan areas across the United States and Canada.
+Road tripping is one of my life happiness activities and I have worked
+towards various travel goals over the years.  My current goal is to
+visit 111 metropolitan areas across the United States and Canada.
 This project tracks my progress towards that goal. A full-sized poster of this
 visualization is pinned to my wall.<br><br>
 
@@ -97,7 +115,7 @@ suggests up to three cities to visit and lists nearby UNESCO world heritage
 sites.<br><br>
 
 Data science skills: Pulling data from servers
-via API Requests • Merging data from 8 sources, despite lack of a standardized
+via API Requests • Fusing data streams from eight sources, despite lack of a standardized
 merge key • Shaping and refining a composite dataset • Building a
 multi-criteria decision-making algorithm to recommend destinations
 • Visualizing project results<br><br>
@@ -111,10 +129,10 @@ GitHub repository:
     <img src="project_visualizations/crowded_scatterplot.png" alt="github.com/sjoshuam/crowded_scatterplot" width="450" height="300">
   </a>
 <div class="desc">
-This project discusses 3 solutions to the "crowded scatterplot" problem,
-using the geographic distribution of the United States' population to
-demonstrate.  Scatterplots can become ineffective or misleading if there are too
-many data points because most points are invisible beneath other points.<br><br>
+Scatterplots can become ineffective or misleading if there are too many data
+points because most points are invisible beneath other nearby points. This project
+discusses solutions to this problem and illustrates them with a map of the US
+population.<br><br>
 
  Data science skills: Processing data in parallel • Applying MapReduce
 "big data" paradigm programming (though the data is not <i>that</i> big)
