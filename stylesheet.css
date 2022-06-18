@@ -1,0 +1,25 @@
+body {
+  font-family: Arial;
+  font-size: 12pt;
+  background-color: #FFFFFF;
+  color: #0F2E4D;
+}
+div{
+  margin: 5px;
+  border: 2px solid #0F2E4D;
+  float: left;
+  border-radius: 5px;
+  width: 99%;
+  background-color:#F2F9FF;
+}
+li {
+  padding: 3px 0px;
+  width: 99%;
+}
+h3 {
+  margin: 5px;
+}
+
+a:link {
+  color: #0050A0
+}
