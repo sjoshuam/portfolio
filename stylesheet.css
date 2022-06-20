@@ -11,13 +11,40 @@ div{
   border-radius: 5px;
   width: 99%;
   background-color:#F2F9FF;
+  width: 450px;
+  height: 600px;
 }
+div.title{
+  background-color:#0F2E4D;
+  color:#F2F9FF;
+  width: 60%;
+  height: 32px;
+  width: 450px;
+  text-align: center;
+}
+div.return{
+  background-color:#F2F9FF;
+  color:#0F2E4D;
+  width: 200px;
+  height: 32px;
+  text-align: center;
+}
+div.separator{
+  background-color:#FFFFFF;
+  color: #FFFFFF;
+  border: 0px solid #FFFFFF;
+  width: 100%;
+  height: 1px;
+
+}
+
 li {
   padding: 3px 0px;
   width: 99%;
 }
 h3 {
   margin: 5px;
+  text-align: center;
 }
 
 a:link {
