@@ -53,14 +53,22 @@ div{
 div.title{
   background-color: var(--dark);
   color: var(--light);
-  height: 50px;
+  height: 23px;
   width: 450px;
+  padding: 5px 0px 0px 0px;
+  text-align: center;
+  font-weight: bold;
 }
 div.link_button{
   background-color: var(--light);
   color: var(--dark);
   width: 218px;
-  height: 50px;
+  height: 23px;
+  color: #808040;
+  text-align: center;
+  padding: 5px 0px 0px 0px;
+  font-weight: bold;
+  text-decoration: underline;
 }
 div.separator{
   background-color: var(--page_bg);
