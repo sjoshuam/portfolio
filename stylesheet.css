@@ -1,16 +1,45 @@
+/* ==== VARIABLES ================ */
+
 :root{
   --light: #F2F9FF;
-  --dark: #0F2E4D;
+  --dark: #143D66;
   --page_bg: #FFFFFF
 }
+
+/* ==== BASIC ELEMENTS ================ */
 
 body {
   font-family: Arial;
   font-size: 12pt;
   background-color: var(--page_bg);
   color: var(--dark);
-  min-width: 930px;
+  min-width: 600px;
 }
+
+p {
+  padding: 0px 10px 0px 10px;
+}
+
+li {
+  padding: 0px 10px 0px 0px;
+}
+
+h3 {
+  padding: 0px 10px 0px 10px;
+  text-align: center;
+  font-size: 12pt;
+}
+
+a:link {
+  color: #808040
+}
+
+img {
+  width: 450px;
+}
+
+/* ==== GENERIC DIV ================ */
+
 div{
   margin: 5px;
   border: 2px solid var(--dark);
@@ -24,36 +53,49 @@ div{
 div.title{
   background-color: var(--dark);
   color: var(--light);
-  width: 60%;
-  height: 32px;
+  height: 50px;
   width: 450px;
-  text-align: center;
 }
-div.return{
+div.link_button{
   background-color: var(--light);
   color: var(--dark);
-  width: 200px;
-  height: 32px;
-  text-align: center;
+  width: 218px;
+  height: 50px;
 }
 div.separator{
   background-color: var(--page_bg);
   color: var(--page_bg);
   border: 0px solid var(--page_bg);
   width: 100%;
-  height: 1px;
-
+  height: 0px;
+  margin: 0px;
 }
 
-li {
-  padding: 3px 0px;
-  width: 99%;
-}
-h3 {
-  margin: 5px;
-  text-align: center;
+/* ==== DIV COLOR SCHEMES ================ */
+
+/* Azure/Brown: (0.05, 1), (0.8, 0.4) */
+/* Black: (0.05, 1) */
+
+div.azure{
+  background-color: var(--light);
+  color: var(--dark);
+  border: 2px solid var(--dark);
 }
 
-a:link {
-  color: #0050A0
+div.white{
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+div.brown{
+  background-color: #FFF9F2;
+  color: #663D14;
+  border: 2px solid #663D14;
+}
+
+div.black{
+  background-color: #000000;
+  color: #CCCCCC;
+  border: 2px solid #808080;
 }

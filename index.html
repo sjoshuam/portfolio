@@ -13,19 +13,11 @@
 </script>
 
 <!-- Styles -->
-<style>
-body {
-  font-family: Arial;
-  font-size: 12pt;
-  min-width: 930px;
-}
 
-p {
-  margin-left: 10px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  max-width: 900px;
-}
+<link rel="stylesheet" href="stylesheet.css">
+
+<!--
+<style>
 
 div.project {
   margin: 5px;
@@ -46,7 +38,7 @@ div.desc {
   text-align: center;
 }
 
-div.title{
+div.page_title{
   margin: 5px;
   border: 2px solid #000000;
   border-radius: 5px;
@@ -65,11 +57,9 @@ div.separator{
 
 }
 
-a:link {
-  color: #0050A0
-}
-
 </style>
+-->
+
 </head>
 <body>
 
@@ -78,171 +68,196 @@ a:link {
 Project Portfolio</h3>
 </div>
 
+<div class = "link_button">
+<h3> <a href = 'project_descriptions.html'> Work Projects </a> <h3>
+</div>
+
+<div class = "link_button">
+<h3> <a href = 'https://www.linkedin.com/in/sjoshuam'> LinkedIn Profile </a> <h3>
+</div>
+
 <div class = "separator"></div>
 
 
-<! --- INTRODUCTION: Intro + RAND links --->
+<!-- INTRODUCTION: Intro + RAND links -->
 
+<div class = 'brown'>
 
-<div class = "project" style = "background-color:#F0F0F0">
+<h3> This portfolio provides a showcase for some of the programming activities
+conducted on my personal time. </h3>
 
-<p style="text-align:center;"><b>This gallery provides a showcase
-for some of the programming activities conducted on my personal time.
-</b></p> <p>I do these projects for professional and personal reasons:</p>
+<p> I do these projects for professional and personal reasons: </p>
 
-<p>Professionally, I use these projects to keep my skills sharp and provide
-a sample code portfolio that prospective business associates can view.</p>
+<p> Professionally, I use these projects to keep my skills sharp and provide
+a sample code portfolio that prospective business associates can view. </p>
 
 <p> Personally, I think programming is as close to magic as one can get
 in the real world – datamancy?  After writing code for so many years, it has
 become a favorite tool in my life toolkit.  I conducted some of these
 projects for the fun of solving data / algorithmic puzzles and some to support
-the various life activities that bring me happiness.<p>
+the various life activities that bring me happiness. <p>
 
-<p>My full github repository is at this link:
-<a href="https://github.com/sjoshuam" target="_blank">github.com/sjoshuam</a></p>
+<p>To view a project's visualization at full-size, click it. To visit the
+project's GitHub repository, click the corresponding link.</p>
 
-<p>Since this gallery showcases personal projects, you may find the offerings
-idiosyncratic.  This page describes examples of professional projects from my
-RAND years: <a href="project_descriptions.html">Project Examples</a>
+<p> Since this gallery showcases personal projects, you may find the offerings
+idiosyncratic.  See the
+<a href = 'project_descriptions.html'>Work Projects</a> page for project
+descriptions for a selection of my professional work.
 </p>
-<div class='desc'>.</div>
+
+
+
+
 </div>
 
 
-<! --- PROJECT: us_travels --->
+<!-- PROJECT: us_travels -->
 
+<div class = 'azure'>
 
-<div class="project" style = "background-color:#F2F9FF; color:#004080">
   <a href="p/us_travels.html">
-    <img src="p/us_travels.png" alt="github.com/sjoshuam/us_travels" width="450" height="300">
+    <img src="p/us_travels.png" alt="github.com/sjoshuam/us_travels">
   </a>
-<div class="desc">
-Years ago, I built my first model of US population dynamics.  I
+
+<h3>My Travels in the United States and Canada</h3>
+
+<p>
+Years ago, I built my first model of American population dynamics.  I
 resolved to see the population centers I knew so well through data and created a
-list of 128 areas to visit. This information dashboard tracks my past progress
-towards achieving that travel goal and provides planning information for my
-future efforts.<br><br>
+list of 128 metro areas to visit. This information dashboard tracks my past
+progress towards achieving that travel goal and provides planning information
+for my future efforts.
+</p>
 
-This project is 85% complete, with rough and revised code drafts done.
-Further development is on hold in favor of higher priority skill improvement tasks
-on other projects.<br><br>
-
-Language: Python (.ipynb)<br>GitHub repository:
-<a href = "https://github.com/sjoshuam/us_travels" target="_blank">us_travels</a>
-<br>Click on the image to view the full-sized poster.<br>.</div></div>
-</div>
-
-
-<! --- PROJECT: travel_weather --->
-
-
-<div class="project">
-  <a href="p/travel_weather.html">
-    <img src="p/travel_weather.png" alt="github.com/sjoshuam/travel_weather" width="450" height="300">
+<p>
+Language: Python (.ipynb) <br>
+GitHub repository:
+  <a href = "https://github.com/sjoshuam/us_travels" target="_blank">
+  us_travels
   </a>
-<div class="desc">
-In the us_travels project, I map pre-planned routes for achieving my
-travel goals.  In this project, I analyze weather data to find the best times of
-the year to travel each route.<br><br>
+</p>
 
-This project is 80% complete.  Second draft code is complete, except for testing.
-Further development is on hold in favor of higher priority skill improvement tasks
-on other projects.<br><br>
+</div>
 
-Language: Python (.ipynb)<br>GitHub repository:
-<a href = "https://github.com/sjoshuam/travel_weather" target="_blank">travel_weather</a>
-<br>Click on the image to view the full-sized poster.<br>.</div></div>
+<!-- PROJECT: travel_weather -->
+
+<div class = 'white'>
+
+<a href="p/travel_weather.html">
+  <img src="p/travel_weather.png" alt="github.com/sjoshuam/travel_weather">
+</a>
+
+<h3> Finding the Best Travel Weather</h3>
+
+<p> To meet my travel goal of visiting 128 metro areas, I have divided
+the Unted States and Canada into a series of roadtrips. Good weather is crucial
+to a good roadtrip, since my version of "visiting" involves miles of city
+exploration walks. This project downloads NOAA weather data and calculates how
+many hours of temperate weather happen each day in each city on average. It uses
+these calculations to score the pleasantness of taking each roadtrip during a
+given week.</p>
+
+<p>
+Language: Python (.ipynb) <br>
+GitHub repository:
+  <a href = "https://github.com/sjoshuam/travel_weather" target="_blank">
+  travel_weather
+  </a>
+</p>
+
 </div>
 
 
-<! --- PROJECT: pop_cluster_map --->
+<!-- PROJECT: pop_cluster_map -->
 
+<div class="brown">
 
-<div class="project" style = "background-color:#FFF2E6; color:#804000">
   <a href="p/pop_cluster_map.html">
     <img src="p/pop_cluster_map.png" alt="github.com/sjoshuam/pop_cluster_map" width="450" height="300">
   </a>
-<div class="desc">
-This project applies cluster detection machine learning methods towards dividing
-the US into a small number of regions based on the where people actually live.
-It correspond to asking, what would US states look like if they grouped
-together people who lived in proximity?
-<br><br>
 
-This project is 74% complete and actively under development.
-<br><br>
+<h3>Redrawing State Borders to Match Where People Live</h3>
 
-Language: Python (.ipynb)<br>GitHub repository:
-<a href = "https://github.com/sjoshuam/pop_cluster_map" target="_blank">pop_cluster_map</a>
-<br>Click on the image to view the full-sized poster.<br>.</div>
+<p>
+U.S. state borders can be idiosyncratic - reflecting historical circumstances
+and compromises long forgotten.  What if the borders were redrawn to
+match to where people live?  This project uses agglomerative cluster machine
+learning to place state borders in the rural spaces between populous areas, so
+that states are more compact and their borders no longer cut through cities.
+In addition, the project synthesizes multiple data sources to understand how
+the new states would vary in terms of population, development, and politics.
+</p>
+
+<p>
+Language: Python (.ipynb) <br>
+GitHub repository:
+  <a href = "https://github.com/sjoshuam/pop_cluster_map" target="_blank">
+  pop_cluster_map
+  </a>
+</p>
+
 </div>
 
 
-<! --- PROJECT: travel_suggestions --->
+<!-- PROJECT: travel_suggestions -->
 
+<div class="black">
 
-<div class="project" style = "background-color:#000000; color:#B0B0B0">
   <a href="p/travel_suggestions.html">
-    <img src="p/travel_suggestions.png" alt="github.com/sjoshuam/travel_suggestions" width="450" height="300">
+    <img src="p/travel_suggestions.png" alt="github.com/sjoshuam/travel_suggestions">
   </a>
-<div class="desc">
-This project suggests destinations for a US-based aspiring world traveler, given
-multiple "point of interest" and "ease of travel" factors. The project offers
-up to three cities to visit for each country and lists nearby UNESCO world
-heritage sites.<br><br>
 
-This project is 100% complete.  However, changes to state department alerts may
-alter the results, depending on when the code is run.<br><br>
+<h3>See the World with 22 Data-Driven Travel Suggestions</h3>
 
-Language: R<br>GitHub repository:
-<a href = "https://github.com/sjoshuam/travel_suggestions" target="_blank">travel_suggestions</a>
-<br>Click on the image to view the full-size poster.<br>.</div>
+<p>
+Who doesn't want to see the world?  However, the world is too big for anyone to
+visit all of it.  This project suggests a country in each of twenty-two
+regions around the world, and then selects up to three cities to visit for each
+country.  Behind the scenes, the project synthesizes multiple datasets with
+information on points of interest and ease of travel.  The resulting list of
+travel destinations won't show an aspiring travel the whole world, but will
+provide a very diverse and interesting sample of what is out there.
+</P>
+
+<p>
+Language: R <br>
+GitHub repository:
+  <a href = "https://github.com/sjoshuam/travel_suggestions" target="_blank">
+  travel_suggestions
+  </a>
+</p>
+
 </div>
 
 
-<! --- PROJECT: better_state_borders --->
+<!-- PROJECT: better_state_borders -->
 
-
-<div class="project">
-  <a href="https://sjoshuam.shinyapps.io/better_state_borders/" target="_blank">
-    <img src="p/better_state_borders.png" alt="github.com/sjoshuam/better_state_borders" width="450" height="300">
+<div class = "white">
+  <a href="https://sjoshuam.shinyapps.io/better_state_borders/" target = "_blank">
+    <img src="p/better_state_borders.png" alt="github.com/sjoshuam/better_state_borders">
   </a>
-<div class="desc">
-The US states have unequal populations, unequal
-land areas, and borders that cut through major urban centers. This project creates
-an interactive tool for exploring how targeted changes to state borders could
-produce better state borders.  The tool takes up to 15 seconds to load.<br><br>
 
-This project is 100% complete, but I may do some web app optimization in the future
-to reduce load times.<br><br>
+<h3>Redrawing State Borders to Make States More Equal</h3>
 
-Language: R<br>GitHub repository:
-  <a href = "https://github.com/sjoshuam/better_state_borders" target="_blank">better_state_borders</a>
-  <br>Click on the image to visit the interactive web application.<br>.</div></div>
-</div>
+<p>
+The United States are not equal.  For example, Texas has 51 times Wyoming's
+population and 253 times Rhode Island's land area. This project creates an
+interactive tool for exploring how targeted changes to state borders could
+produce better state borders.  As you change the borders, the tool will
+automatically score how your changes affect inequality among states.
+Development note: Tool currently loads very slowly. Eventually, I will overhaul
+this project...
+</p>
 
-
-<! --- PROJECT: crowded_scatterplot --->
-
-
-<div class="project">
-  <a href="p/crowded_scatterplot.html">
-    <img src="p/crowded_scatterplot.png" alt="github.com/sjoshuam/crowded_scatterplot" width="450" height="300">
+<p>
+Language: R <br>
+GitHub repository:
+  <a href = "https://github.com/sjoshuam/better_state_borders" target="_blank">
+  better_state_borders
   </a>
-<div class="desc">
-Scatterplots can become ineffective or misleading if there are too many data
-points because most points are invisible beneath other nearby points. This project
-discusses solutions to this problem and illustrates them with a map of the US
-population.<br><br>
+</p>
 
-This project is 20% complete.  It is not under active
-development because skill-building in Python is a higher priority
-for me right now than skill-building in R.<br><br>
-
-Language: R<br>GitHub repository:
-  <a href = "https://github.com/sjoshuam/crowded_scatterplot" target="_blank">crowded_scatterplot</a>
-  <br>Click on the image to view the full-sized poster.<br>.</div></div>
 </div>
 
 </body>
