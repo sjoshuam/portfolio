@@ -107,3 +107,20 @@ div.black{
   color: #CCCCCC;
   border: 2px solid #808080;
 }
+
+div.double{
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 2px solid #000000;
+  width: 915px;
+}
+div.double_img{
+  border: 2px solid #808040;
+  height: 200px;
+  width: 150px;
+  float: left;
+}
+img.double_img{
+  height: 200px;
+  width: 150px;
+}
