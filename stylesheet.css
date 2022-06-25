@@ -9,7 +9,7 @@
 /* ==== BASIC ELEMENTS ================ */
 
 body {
-  font-family: Arial;
+  font-family: Quicksand, Ariel;
   font-size: 12pt;
   background-color: var(--page_bg);
   color: var(--dark);
@@ -113,6 +113,7 @@ div.double{
   color: #000000;
   border: 2px solid #000000;
   width: 915px;
+  height: 605px;
 }
 div.double_img{
   border: 2px solid #808040;
