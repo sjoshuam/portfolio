@@ -1,0 +1,63 @@
+/* ==== VARIABLES ================ */
+
+:root{
+    /*--light: #F2F9FF;
+    --dark: #143D66;
+    --page_bg: #FFFFFF;*/
+    --page_bg: #000000;
+    --light: #000000;
+    --dark: #FFFFFF;
+}
+
+/* ==== BASIC ELEMENTS ================ */
+  
+body{
+    font-family: Quicksand, Ariel;
+    background-color: var(--page_bg);
+    color: var(--dark);
+    width: 1506px;
+    min-height: 1000px;
+}
+
+h1{
+    font-size: 14pt;
+    font-weight: bold;
+    margin: 4px;
+}
+
+h2{
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 4px;
+}
+
+p{
+    font-size: 11pt;
+    margin: 4px;
+    text-align: justify;
+}
+
+ul{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+
+
+/* ==== DIVs ================ */
+
+div{
+    border: 1px solid var(--dark);
+    float: left;
+    background-color: var(--light);
+    margin: 0px;
+}
+
+div.facet_inset{width: 500px; height: 040px;}
+div.facet_panel{width: 500px; height: 240px;}
+
+div.side_inset{width:  302px; height: 040px;}
+div.side_panel{width:  302px; height: 318px;}
+
+div.main_inset{width: 1200px; height: 040px;}
+div.main_panel{width: 1200px; height: 680px;}
