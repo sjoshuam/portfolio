@@ -7,6 +7,7 @@
     --page_bg: #000000;
     --light: #000000;
     --dark: #FFFFFF;
+    --dividers: #202020;
 }
 
 /* ==== BASIC ELEMENTS ================ */
@@ -15,7 +16,7 @@ body{
     font-family: Quicksand, Ariel;
     background-color: var(--page_bg);
     color: var(--dark);
-    width: 1506px;
+    width: 1604px;
     min-height: 1000px;
 }
 
@@ -43,21 +44,32 @@ ul{
     font-size: 14px;
 }
 
+a{
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #808080;
+    font-size: 8pt;
+    color: #808080;
+    background-color: #101010;
+}
+
 
 /* ==== DIVs ================ */
 
 div{
-    border: 1px solid var(--dark);
+    border: 0px solid var(--dark);
     float: left;
     background-color: var(--light);
     margin: 0px;
 }
 
-div.facet_inset{width: 500px; height: 040px;}
-div.facet_panel{width: 500px; height: 240px;}
+div.side_inset{width: 400px; height: 050px;  border: 1px solid var(--dividers);}
+div.side_panel{width: 400px; height: 720px;  border: 1px solid var(--dividers);}
 
-div.side_inset{width:  302px; height: 040px;}
-div.side_panel{width:  302px; height: 318px;}
+div.facet_inset{width: 800px; height: 050px; border: 1px solid var(--dividers);}
+div.facet_panel{width: 800px; height: 400px; border: 1px solid var(--dividers);}
 
-div.main_inset{width: 1200px; height: 040px;}
-div.main_panel{width: 1200px; height: 680px;}
+div.main_inset{width: 1200px; height: 050px; border: 1px solid var(--dividers);}
+div.main_panel{width: 1200px; height: 720px; border: 1px solid var(--dividers);}
+
+div.navigation{width: 1602px; height: 24px; border: 1px; margin: 3px;}
