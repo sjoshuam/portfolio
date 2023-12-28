@@ -64,7 +64,9 @@ div{
 }
 
 div.side_inset{width: 400px; height: 050px;  border: 1px solid var(--dividers);}
-div.side_panel{width: 400px; height: 720px;  border: 1px solid var(--dividers);}
+div.oconus_panel{width: 400px; height: 120px;  border: 1px solid var(--dividers);}
+div.side_panel{width: 400px; height: 600px;  border: 1px solid var(--dividers);}
+
 
 div.facet_inset{width: 800px; height: 050px; border: 1px solid var(--dividers);}
 div.facet_panel{width: 800px; height: 400px; border: 1px solid var(--dividers);}
