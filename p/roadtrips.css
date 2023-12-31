@@ -1,21 +1,19 @@
 /* ==== VARIABLES ================ */
 
 :root{
-    /*--light: #F2F9FF;
-    --dark: #143D66;
-    --page_bg: #FFFFFF;*/
-    --page_bg: #000000;
-    --light: #000000;
-    --dark: #FFFFFF;
+    --page: #000000;
+    --bg: #000000;
+    --fg: #CCCCCC;
     --dividers: #202020;
+    --offset: #a1e6e6;
 }
 
 /* ==== BASIC ELEMENTS ================ */
   
 body{
     font-family: Quicksand, Ariel;
-    background-color: var(--page_bg);
-    color: var(--dark);
+    background-color: var(--page);
+    color: var(--fg);
     width: 1604px;
     min-height: 1000px;
 }
@@ -33,7 +31,7 @@ h2{
 }
 
 p{
-    font-size: 11pt;
+    font-size: 12pt;
     margin: 4px;
     text-align: justify;
 }
@@ -45,7 +43,7 @@ p.navigation{
 ul{
     margin-top: 2px;
     margin-bottom: 2px;
-    font-size: 14px;
+    font-size: 12pt;
 }
 
 a{
@@ -56,13 +54,16 @@ a{
     background-color: #101820;
 }
 
+b.item{
+    color: var(--offset);
+}
 
 /* ==== DIVs ================ */
 
 div{
-    border: 0px solid var(--dark);
+    border: 0px solid var(--fg);
     float: left;
-    background-color: var(--light);
+    background-color: var(--bg);
     margin: 0px;
 }
 
