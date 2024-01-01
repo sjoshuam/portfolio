@@ -4,8 +4,8 @@
     --page: #000000;
     --bg: #000000;
     --fg: #CCCCCC;
-    --dividers: #202020;
-    --offset: #a1e6e6;
+    --dividers: #262626;
+    --offset: #4d9999;
 }
 
 /* ==== BASIC ELEMENTS ================ */
@@ -14,7 +14,7 @@ body{
     font-family: Quicksand, Ariel;
     background-color: var(--page);
     color: var(--fg);
-    width: 1604px;
+    width: 1504px;
     min-height: 1000px;
 }
 
@@ -67,18 +67,18 @@ div{
     margin: 0px;
 }
 
-div.side_inset{width: 400px; height: 050px;  border: 1px solid var(--dividers);}
-div.oconus_panel{width: 400px; height: 118px;  border: 1px solid var(--dividers);}
-div.side_panel{width: 400px; height: 600px;  border: 1px solid var(--dividers);}
+div.side_inset{width: 500px; height: 050px;  border: 1px solid var(--dividers);}
+div.oconus_panel{width: 500px; height: 118px;  border: 1px solid var(--dividers);}
+div.side_panel{width: 500px; height: 600px;  border: 1px solid var(--dividers);}
 
 
-div.facet_inset{width: 800px; height: 030px; border: 1px solid var(--dividers);}
-div.facet_panel{width: 800px; height: 400px; border: 1px solid var(--dividers);}
+div.facet_inset{width: 750px; height: 030px; border: 1px solid var(--dividers);}
+div.facet_panel{width: 750px; height: 400px; border: 1px solid var(--dividers);}
 
-div.main_inset{width: 1200px; height: 050px; border: 1px solid var(--dividers);}
-div.main_panel{width: 1200px; height: 720px; border: 1px solid var(--dividers);}
+div.main_inset{width: 1000px; height: 050px; border: 1px solid var(--dividers);}
+div.main_panel{width: 1000px; height: 720px; border: 1px solid var(--dividers);}
 
-div.bottom_panel{width: 1300px; height: 400px;  border: 1px solid var(--dividers);}
+div.bottom_panel{width: 1200px; height: 400px;  border: 1px solid var(--dividers);}
 div.corner_panel{width: 0300px; height: 400px; border: 1px solid var(--dividers);}
 
-div.navigation{width: 1602px; height: 30px; border: 1px solid var(--dividers);}
+div.navigation{width: 1502px; height: 30px; border: 1px solid var(--dividers);}
