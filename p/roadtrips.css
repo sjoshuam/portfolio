@@ -5,7 +5,7 @@
     --bg: #000000;
     --fg: #CCCCCC;
     --dividers: #262626;
-    --offset: #4d9999;
+    --offset: #408080;
 }
 
 /* ==== BASIC ELEMENTS ================ */
@@ -32,7 +32,7 @@ h2{
 
 p{
     font-size: 12pt;
-    margin: 4px;
+    margin: 5px;
     text-align: justify;
 }
 
@@ -48,10 +48,12 @@ ul{
 
 a{
     border-radius: 5px;
-    border: 1px solid #406080;
+    border: 1px solid #408080;
     font-size: 11pt;
-    color: #406080;
-    background-color: #101820;
+    color: #408080;
+    background-color: #0d1a1a;
+    text-decoration-color: #408080;
+    text-decoration: none;
 }
 
 b.item{
@@ -73,7 +75,7 @@ div.side_panel{width: 500px; height: 600px;  border: 1px solid var(--dividers);}
 
 
 div.facet_inset{width: 750px; height: 030px; border: 1px solid var(--dividers);}
-div.facet_panel{width: 750px; height: 400px; border: 1px solid var(--dividers);}
+div.facet_panel{width: 750px; height: 392px; border: 1px solid var(--dividers);}
 
 div.main_inset{width: 1000px; height: 050px; border: 1px solid var(--dividers);}
 div.main_panel{width: 1000px; height: 720px; border: 1px solid var(--dividers);}
