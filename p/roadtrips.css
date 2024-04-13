@@ -78,7 +78,13 @@ div.oconus_panel{width: 500px; height: 118px;  border: 1px solid var(--dividers)
 div.side_panel{width: 500px; height: 600px;  border: 1px solid var(--dividers);}
 div.main_panel{width: 1000px; height: 720px; border: 1px solid var(--dividers);}
 
-div.bottom_text{width: 300px; height: 720px; border: 1px solid var(--dividers);}
-div.bottom_panel{width: 1200px; height: 720px; border: 1px solid var(--dividers);}
+div.tool_thumbnail{width: 300px; height: 200px; border: 1px solid var(--dividers);}
+div.tool_text{width: 1200px; height: 200px; border: 1px solid var(--dividers);}
 
 div.navigation{width: 1502px; height: 30px; border: 1px solid var(--dividers);}
+
+
+/* ==== SPARE PARTS ================ */
+
+div.bottom_text{width: 300px; height: 720px; border: 1px solid var(--dividers);}
+div.bottom_panel{width: 1200px; height: 720px; border: 1px solid var(--dividers);}
