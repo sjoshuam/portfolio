@@ -70,9 +70,11 @@ div{
 }
 
 
+div.intro_inset{width: 800px; height: 030px; border: 1px solid var(--dividers);}
+div.intro_panel{width: 800px; height: 392px; border: 1px solid var(--dividers);}
 
-div.facet_inset{width: 750px; height: 030px; border: 1px solid var(--dividers);}
-div.facet_panel{width: 750px; height: 392px; border: 1px solid var(--dividers);}
+div.progress_inset{width: 700px; height: 030px; border: 1px solid var(--dividers);}
+div.progress_panel{width: 700px; height: 392px; border: 1px solid var(--dividers);}
 
 div.oconus_panel{width: 500px; height: 118px;  border: 1px solid var(--dividers);}
 div.side_panel{width: 500px; height: 600px;  border: 1px solid var(--dividers);}
