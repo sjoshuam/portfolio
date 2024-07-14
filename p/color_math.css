@@ -1,0 +1,47 @@
+/* ==== VARIABLES ================ */
+
+:root{
+    --page: #FFFFFF;
+    --bg: #FFFFFF;
+    --fg: #000000;
+    --dividers: #F0F0F0;
+    --offset: #408080;
+}
+
+/* ==== BASIC ELEMENTS ================ */
+  
+body{
+    font-family: Quicksand, Ariel;
+    background-color: var(--page);
+    color: var(--fg);
+    width: 1508px;
+    min-height: 1000px;
+}
+
+h1{
+    font-size: 16pt;
+    margin: 5px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+p{
+    font-size: 12pt;
+    margin: 5px;
+    text-align: justify;
+}
+
+div{
+    border: 0px solid var(--fg);
+    float: right;
+    background-color: var(--bg);
+    margin: 0px;
+}
+
+/* ==== DIV ELEMENTS ================ */
+
+div.visual{width: 500px; height: 500px; border: 1px solid var(--dividers);}
+div.text{width: 250px; height: 500px; border: 1px solid var(--dividers);}
+
+div.titlenav{width: 752px; height: 50px; border: 1px solid var(--dividers);}
+div.banner{width: 752px; height: 102px; border: 1px solid var(--dividers);}
