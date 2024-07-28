@@ -14,7 +14,7 @@ body{
     font-family: Quicksand, Ariel;
     background-color: var(--page);
     color: var(--fg);
-    width: 1508px;
+    width: 1208px;
     min-height: 1000px;
 }
 
@@ -31,6 +31,11 @@ p{
     text-align: justify;
 }
 
+p.navigation{
+    margin: 5px;
+    float:left;
+}
+
 div{
     border: 0px solid var(--fg);
     float: right;
@@ -38,10 +43,20 @@ div{
     margin: 0px;
 }
 
+a{
+    border: 1px solid var(--fg);
+    border-radius: 5px;
+    float: left;
+    color: var(--fg);
+    background-color: var(--bg);
+    margin: 0px;
+    text-decoration:none;
+}
+
 /* ==== DIV ELEMENTS ================ */
 
 div.visual{width: 500px; height: 500px; border: 1px solid var(--dividers);}
-div.text{width: 250px; height: 500px; border: 1px solid var(--dividers);}
+div.text{width: 200px; height: 500px; border: 1px solid var(--dividers);}
 
-div.titlenav{width: 752px; height: 50px; border: 1px solid var(--dividers);}
-div.banner{width: 752px; height: 102px; border: 1px solid var(--dividers);}
+div.titlenav{width: 602px; height: 50px; border: 1px solid var(--dividers);}
+div.banner{width: 602px; height: 102px; border: 1px solid var(--dividers);}
